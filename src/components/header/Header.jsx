@@ -1,9 +1,10 @@
 import arvore from '../../assets/arvore.png';
+import s from './header.module.scss';
 import './header.module.scss';
 
 const Header = () => {
   return (
-    <header>
+    <header className={s.header}>
       <section>
         <img src={arvore} alt="arvore de natal" />
         <p>Feliz Natal!!!</p>
