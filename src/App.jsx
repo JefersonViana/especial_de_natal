@@ -1,0 +1,7 @@
+import './globalStyle/globalStyle.scss';
+
+export const App = () => {
+  return (
+    <h1>Hello world!</h1>
+  );
+}
