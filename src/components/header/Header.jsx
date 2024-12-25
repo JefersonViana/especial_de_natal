@@ -7,13 +7,13 @@ const Header = () => {
     <header className={s.header}>
       <section>
         <img src={arvore} alt="arvore de natal" />
-        <p>Feliz Natal!!!</p>
+        <p className={s.font_great}>Feliz Natal!!!</p>
       </section>
       <nav>
         <ul>
-          <li><a href="#inicio">Inicio</a></li>
-          <li><a href="#curiosidade">Curiosidade</a></li>
-          <li><a href="#galeria">Galeria</a></li>
+          <li><a className={s.font_great} href="#inicio">Inicio</a></li>
+          <li><a className={s.font_great} href="#curiosidade">Curiosidade</a></li>
+          <li><a className={s.font_great} href="#galeria">Galeria</a></li>
         </ul>
       </nav>
     </header>
